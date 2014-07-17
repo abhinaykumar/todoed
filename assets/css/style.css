@@ -34,7 +34,12 @@ a:hover { text-decoration: none; }
     -webkit-transition: all .2s;
     -ms-transition: all .2s;
 }
-.logo a:hover { color: #e75967; }
+/*.logo a:hover { color: #e75967; } */
+
+.t a:hover { color: #FFCC00; }
+.o a:hover { color: #0066FF; }
+.d a:hover { color: #E60000; }
+.oe a:hover { color: #33CC33; }
 
 .call-us {
     font-size: 18px;
@@ -56,9 +61,22 @@ a:hover { text-decoration: none; }
     text-align: center;
     color: #fff;
 }
-.coming-soon .note{
-    color: #666699;
+.boxed{
+    border: 3px solid black;
 }
+.we{
+    color: #FFCC00;
+}
+.are{
+    color: #0066FF;
+}
+.coming{
+    color: #E60000;
+}
+.soon{
+    color: #33CC33;
+}
+
 
 .inner-bg {
     padding: 55px 0 60px 0;
@@ -69,7 +87,7 @@ a:hover { text-decoration: none; }
 }
 
 .coming-soon h2 {
-    padding: 330px 0 60px 0;
+    padding: 540px 0 60px 0;
     margin: 0;
     font-size: 40px;
     font-weight: 700;
@@ -84,43 +102,6 @@ a:hover { text-decoration: none; }
     text-shadow: 0 1px 7px rgba(0,0,0,.2);
 }
 
-.timer {
-    margin-top: 0px;
-    text-shadow: 0 1px 5px rgba(0,0,0,.1);
-}
-
-.timer .days-wrapper,
-.timer .hours-wrapper,
-.timer .minutes-wrapper,
-.timer .seconds-wrapper {
-    display: inline-block;
-    width: 160px;
-    height: 140px;
-    margin: 0 10px;
-    padding-top: 20px;
-    background: #2d2d2d; /* browsers that don't support rgba */
-    background: rgba(45,45,45,.7);
-    font-size: 18px;
-    -moz-border-radius: 80px;
-    -webkit-border-radius: 80px;
-    border-radius: 80px;
-}
-
-.timer .days-wrapper:hover,
-.timer .hours-wrapper:hover,
-.timer .minutes-wrapper:hover,
-.timer .seconds-wrapper:hover {
-    background: #e75967 url(../img/pattern-2.png);
-    text-shadow: none;
-}
-
-.timer .days,
-.timer .hours,
-.timer .minutes,
-.timer .seconds {
-    font-size: 80px;
-    line-height: 90px;
-}
 
 
 /***** Content *****/
@@ -254,26 +235,7 @@ a:hover { text-decoration: none; }
         padding-right: 0;
     }
 
-    .timer .days-wrapper,
-    .timer .hours-wrapper,
-    .timer .minutes-wrapper,
-    .timer .seconds-wrapper {
-        width: 140px;
-        height: 120px;
-        margin: 0 7px;
-        padding-top: 20px;
-        -moz-border-radius: 70px;
-        -webkit-border-radius: 70px;
-        border-radius: 70px;
-    }
-
-    .timer .days,
-    .timer .hours,
-    .timer .minutes,
-    .timer .seconds {
-        font-size: 60px;
-        line-height: 70px;
-    }
+    
 
 }
 
@@ -311,26 +273,7 @@ a:hover { text-decoration: none; }
         padding: 0 20px;
     }
 
-    .timer .days-wrapper,
-    .timer .hours-wrapper,
-    .timer .minutes-wrapper,
-    .timer .seconds-wrapper {
-        width: 140px;
-        height: 120px;
-        margin: 7px;
-        padding-top: 20px;
-        -moz-border-radius: 70px;
-        -webkit-border-radius: 70px;
-        border-radius: 70px;
-    }
-
-    .timer .days,
-    .timer .hours,
-    .timer .minutes,
-    .timer .seconds {
-        font-size: 60px;
-        line-height: 70px;
-    }
+    
 
     .subscribe h3 {
         padding: 0 20px;
