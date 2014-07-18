@@ -21,10 +21,7 @@ if($_POST) {
         echo json_encode($array);
     }
     else {
-        $array = array();
-        $array['valid'] = 1;
-        $array['message'] = 'Thanks for your subscription!';
-        echo json_encode($array);
+        
 
         // Send an email
 	$subject = 'New Subscriber!';
@@ -33,6 +30,10 @@ if($_POST) {
 	$headers = "From: ".$subscriber_email."<" . $subscriber_email . ">" . "\r\n" .
     "Reply-To: " . $subscriber_email ."\r\n". 'X-Mailer: PHP/' . phpversion();
 	mail($emailTo, $subject, $body, $headers);
+    $array = array();
+        $array['valid'] = 1;
+        $array['message'] = 'Thanks for your subscription!';
+        echo json_encode($array);
     }
 
 }
