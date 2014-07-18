@@ -9,7 +9,6 @@ jQuery(document).ready(function() {
     ,  "assets/img/backgrounds/bg-2.png"
     ,  "assets/img/backgrounds/bg-3.png"
     ,  "assets/img/backgrounds/bg-4.png"
-    ,  "assets/img/backgrounds/bg-5.png"
     ], {duration: 4000, fade: 750});
 
     /*
