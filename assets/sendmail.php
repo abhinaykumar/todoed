@@ -26,7 +26,7 @@ if($_POST) {
         $array['message'] = 'Thanks for your subscription!';
         echo json_encode($array);
 
-        // Send email
+        // Send an email
 	$subject = 'New Subscriber!';
 	$body = "You have a new subscriber!\n\nEmail: " . $subscriber_email;
         // uncomment this to set the From and Reply-To emails, then pass the $headers variable to the "mail" function below
